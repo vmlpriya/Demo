@@ -1,0 +1,20 @@
+.table{
+    font-family: Arial ;
+    border-collapse: collapse;
+    width: 100%;
+}
+tr:first-child{
+    background-color: aqua;
+}
+th,td{
+    border: 2px solid white;
+    text-align: left;
+    padding: 8px 10px;
+}
+tr:nth-child(even){
+    background-color: blue;
+}
+tr:hover{
+    background-color: blueviolet;
+}
+

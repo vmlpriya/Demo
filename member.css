@@ -1,0 +1,83 @@
+.parent {
+    position: relative;
+    top: 50px;
+    left: 440px;
+    border-radius: 5px;
+}
+.child4 {
+    position: absolute;
+    top: 232px;
+    left: 327px;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    color: #FCC124;
+}
+.parent1 {
+    position: relative;
+    top: 5px;
+    left: 0px;
+    border-radius: 5px;
+}
+.child {
+    position: relative;
+    top: -555px;
+    left: 207px;
+    border-radius: 5px;
+}
+.child1 {
+    position: relative;
+    top: -787px;
+    left: 173px;
+    border-radius: 5px;
+}
+#aa {
+    position: absolute;
+    top: 386px;
+    left: 86px;
+    color: #F9EC69;
+    font-family: 'Times New Roman';
+}
+#bb {
+    position: absolute;
+    top: 416px;
+    left: 86px;
+    color: #F9EC69;
+    font-family: 'Times New Roman';
+}
+#cc {
+    position: absolute;
+    top: 445px;
+    left: 86px;
+    color: #F9EC69;
+    font-family: 'Times New Roman';
+}
+#dd {
+    position: absolute;
+    top: 476px;
+    left: 86px;
+    color: #F9EC69;
+    font-family: 'Times New Roman';
+}
+#ee {
+    position: absolute;
+    top: 507px;
+    left: 86px;
+    color: #F9EC69;
+    font-family: 'Times New Roman';
+}
+.child2 {
+    position: absolute;
+    top: 369px;
+    left: 380px;
+}
+.child3 {
+    position: absolute;
+    top: 369px;
+    left: 380px;
+    color: #F9EC69;
+}
+.child5 {
+    position: absolute;
+    top: 454px;
+    left: 332px;
+}

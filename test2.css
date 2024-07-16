@@ -1,0 +1,230 @@
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: #24A0C4;
+  border-radius: 50%;
+  position: relative;
+  top: -63px;
+  left: -34px;
+}
+
+.circle1 {
+    height: 150px;
+    width: 150px;
+    background-color: #24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -254px;
+    left: 115px;
+  }
+  .circle2 {
+    height: 150px;
+    width: 150px;
+    background-color: #24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -391px;
+    left: 232px;
+  }
+  .circle3 {
+    height: 150px;
+    width: 150px;
+    background-color: #24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -529px;
+    left: 335px;
+  }
+  .circle4 {
+    height: 150px;
+    width: 150px;
+    background-color: #24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -723px;
+    left: 435px;
+  }
+  .circle5{
+    height: 150px;
+    width: 150px;
+    background-color: #24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -868px;
+    left: 545px;
+  }
+  .circle6{
+    height: 150px;
+    width: 150px;
+    background-color: #24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -992px;
+    left: 625px;
+  }
+  .circle7{
+    height: 150px;
+    width: 150px;
+    background-color: #24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -1164px;
+    left: 737px;
+  }
+  .circle8{
+    height: 150px;
+    width: 150px;
+    background-color:#24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -1281px;
+    left: 832px;
+  }
+  .circle9{
+    height: 125px;
+    width: 125px;
+    background-color:orange;
+    border-radius: 50%;
+    box-shadow: 0 0 10px orange,
+                0 0 60px orange,
+                0 0 200px yellow,
+                inset 0 0 80px yellow;
+    position: relative;
+    top: -1336px;
+    left: 841px;
+  }
+  .circle10{
+    height: 150px;
+    width: 150px;
+    background-color: #24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -1556px;
+    left: 946px;
+  }
+  .circle11{
+    height: 150px;
+    width: 150px;
+    background-color: #24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -1721px;
+    left: 1065px;
+  }
+  .circle12{
+    height: 200px;
+    width: 200px;
+    background-color: #24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -1851px;
+    left: 1163px;
+  }
+  .circle13{
+    height: 200px;
+    width: 200px;
+    background-color: #24A0C4;
+    border-radius: 50%;
+    position: relative;
+    top: -2098px;
+    left: 1315px;
+  }
+  .rectangle {
+    height: 400px;
+    width: 1550px;
+    background-color: black;
+    position: relative;
+    top: -1777px;
+    left: -9px;
+  }
+  .rectangle1 {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    top: -2061px;
+    left: -9px;
+  }
+  .rectangle2 {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    top: -2096px;
+    left: 247px;
+  }
+  .rectangle3 {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    top: -2131px;
+    left: 527px;
+  }
+  .rectangle4 {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    top: -2167px;
+    left: 790px;
+  }
+  .rectangle5 {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    top: -2201px;
+    left: 1047px;
+  }
+  .rectangle6 {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    top: -2237px;
+    left: 1319px;
+  }
+  .rectangle7 {
+    height: 59px;
+    width: 198px;
+    background-color: red;
+    border: black;
+    border-style: solid;
+    position: relative;
+    top: -2386px;
+    left: 127px;
+  }
+  .rectangle8 {
+    height: 42px;
+    width: 89px;
+    background-color: brown;
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    top: -2488px;
+    left: 169px;
+  }
+  .circle14 {
+    height: 55px;
+    width: 55px;
+    background-color: #313334;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    top: -2450px;
+    left: 143px;
+}
+  .circle15 {
+    height: 55px;
+    width: 55px;
+    background-color: #313334;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    top: -2503px;
+    left: 235px;
+}
+

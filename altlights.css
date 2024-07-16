@@ -1,0 +1,1002 @@
+body{
+    width: 100%;
+    height: 100svh;
+    background-color: white;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(Night_Uncolored.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+@media screen and ((min-width:300px) and (max-width:768px)){
+    .background{
+        display: block;
+    }
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    opacity: 0.6;  
+    display: flex;
+}
+#c6 {
+    width: 250px;
+    height: 100px;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 175px;
+    left: 75px;
+}
+#c7 {
+    width: 400px;
+    height: 100px;
+    font-family: italic;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 268px;
+    left: 75px;
+}
+.logo {
+    width: 130px;
+    height: 60px;
+    background-image: url(./alt.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 15px;
+    left: 87px;
+}
+.c1 {
+    width: 100px;
+    height: 100px;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 280px;
+    display: flex;
+}
+.c2 {
+    width: 100px;
+    height: 100px;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 378px;
+    display: flex;
+}
+.c3 {
+    width: 100px;
+    height: 100px;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 502px;
+    display: flex;
+}
+.c4 {
+    width: 100px;
+    height: 100px;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 606px;
+    display: flex;
+}
+.c5 {
+    width: 100px;
+    height: 100px;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 750px;
+    display: flex;
+}
+@media screen and ((min-width:300px) and (max-width:768px)) {
+    .logo{
+        left: 20px;
+    }
+    .c1{
+        left: 150px;
+    }
+    .c2{
+        left: 220px;
+    }
+    .c3{
+        left:300px;
+    }
+    .c4{
+        left: 370px;
+    }
+    .c5{
+        left: 480px;
+    }
+}
+@media screen and ((min-width:768px) and (max-width:1024px)) {
+    .logo{
+        left: 20px;
+    }
+    .c1{
+        left: 150px;
+    }
+    .c2{
+        left: 220px;
+    }
+    .c3{
+        left: 300px;
+    }
+    .c4{
+        left: 370px;
+    }
+    .c5{
+        left: 480px;
+    }
+}
+.division2{
+    width: 100%;
+    height: 100svh;
+    background-color: white;
+    position: relative;
+}
+#c8{
+    width: 100px;
+    height: 100px;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    top: 80px;
+    left: 365px; 
+}
+#c9{
+    width: 512px;
+    height: 100px;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    color: red;
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+.buttons{
+    width: 100%;
+    height: 100px;
+}
+#a{
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    border: 3px solid red;
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+#a:hover{
+    background-color: red;
+    color: white;
+}
+#b{
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    border: 3px solid red;
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 180px;
+    left: 440px;
+}
+#b:hover{
+    background-color: red;
+    color: white;
+}
+#c{
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    border: 3px solid red;
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 180px;
+    left: 742px;
+}
+#c:hover{
+    background-color: red;
+    color: white;
+}
+#d{
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    border: 3px solid red;
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 180px;
+    left: 1090px;
+}
+#d:hover{
+    background-color: red;
+    color: white;
+}
+#e{
+    width: 1125px;
+    height: 100px;
+    color: rgb(124, 120, 120);
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.img1{
+    width: 270px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: black;
+    background-image: url(./sway.png);
+    background-size: 100% 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+.img1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.nm1{
+    width: 30px;
+    height: 30px;
+    color: black;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    position: absolute;
+    top: 710px;
+    left: 200px;
+}
+.img2{
+    width: 270px;
+    height: 350px;
+    border-radius: 15px;
+    background-image: url(./erco.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 350px;
+    left: 560px;
+}
+.img2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.nm2{
+    width: 30px;
+    height: 30px;
+    color: red;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    position: absolute;
+    top: 710px;
+    left: 665px;
+}
+.img3{
+    width: 270px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: black; 
+    background-image: url(./polo.png);
+    background-size: 100% 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+}
+.img3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.nm3{
+    width: 30px;
+    height: 30px;
+    color: black;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    position: absolute;
+    top: 710px;
+    left: 1128px;
+}
+#button1
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    position: absolute;
+    top: 500px;
+    left: 422px;
+}
+#button2
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    position: absolute;
+    top: 500px;
+    left: 885px;
+
+}
+.division3{
+    width: 100%;
+    height: 100svh;
+    background-color: whitesmoke;
+    position: relative;
+}
+#c10{
+    width: 100px;
+    height: 100px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    position: absolute;
+    top: 30px;
+    left: 600px;
+}
+#c11{
+    width: 100px;
+    height: 100px;
+    color: red;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    position: absolute;
+    top: 30px;
+    left: 670px;
+}
+.child1{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#aa{
+    width: 347px;
+    height: 255px;
+    background-image: url(./ola.png);
+    background-size: 100% 100%;
+    border: transparent;
+    position: absolute;
+    top: 20px;
+    left: 28px
+}
+.child2{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 550px;
+}
+#bb{
+    width: 347px;
+    height: 255px;
+    background-image: url(./lenskart.jpg);
+    background-size: 100% 100%;
+    border: transparent;
+    position: absolute;
+    top: 20px;
+    left: 25px
+}
+.child3{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 990px;
+}
+#cc{
+    width: 347px;
+    height: 255px;
+    background-image: url(./hotel.jpg);
+    background-size: 100% 100%;
+    border: transparent;
+    position: absolute;
+    top: 20px;
+    left: 25px
+}
+.child4{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    position: absolute;
+    top: 430px;
+    left: 300px;
+}
+#dd{
+    width: 347px;
+    height: 255px;
+    background-image: url(./bata.jpg);
+    background-size: 100% 100%;
+    border: transparent;
+    position: absolute;
+    top: 20px;
+    left: 25px
+}
+.child5{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    position: absolute;
+    top: 430px;
+    left: 760px;
+}
+#ee{
+    width: 347px;
+    height: 255px;
+    background-image: url(./malls.jpg);
+    background-size: 100% 100%;
+    border: transparent;
+    position: absolute;
+    top: 20px;
+    left: 25px
+}
+.division4{
+    width: 100%;
+    height: 10svh;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+}
+.ad1{
+    width: 200px;
+    height: 80px;
+    background-image: url(./bata1.jpg);
+    background-size: 100% 100%;
+    animation-name: my_animation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.ad2{
+    width: 200px;
+    height: 80px;
+    background-image: url(./raj.jpg);
+    background-size: 100% 100%;
+    animation-name: my_animation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.ad3{
+    width: 200px;
+    height: 80px;
+    background-image: url(./ola1.jpg);
+    background-size: 100% 100%;
+    animation-name: my_animation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.ad4{
+    width: 200px;
+    height: 80px;
+    background-image: url(./preethi.jpg);
+    background-size: 100% 100%;
+    animation-name: my_animation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.ad5{
+    width: 200px;
+    height: 80px;
+    background-image: url(./kaj.jpg);
+    background-size: 100% 100%;
+    animation-name: my_animation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.ad6{
+    width: 200px;
+    height: 80px;
+    background-image: url(./kart.jpg);
+    background-size: 100% 100%;
+    animation-name: my_animation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.ad7{
+    width: 200px;
+    height: 80px;
+    background-image: url(./tata.jpg);
+    background-size: 100% 100%;
+    animation-name: my_animation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.ad8{
+    width: 200px;
+    height: 80px;
+    background-image: url(./money.jpg);
+    background-size: 100% 100%;
+    animation-name: my_animation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.ad9{
+    width: 200px;
+    height: 80px;
+    background-image: url(./ohn.jpg);
+    background-size: 100% 100%;
+    animation-name: my_animation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.ad10{
+    width: 200px;
+    height: 80px;
+    background-image: url(./son.jpg);
+    background-size: 100% 100%;
+    animation-name: my_animation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes my_animation{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 100% ;
+    }
+}
+.division5{
+    width: 100%;
+    height: 100svh;
+    background-color: black;
+    position: relative;
+}
+.child{
+    width: 1200px;
+    height: 470px;
+    border-radius: 40px;
+    background-color: white;
+    position: absolute;
+    top: 152px;
+    left: 135px;
+}
+.childiv{
+    width: 95%;
+    height: 7svh;
+    border-radius: 40px;
+    background-color: rgb(136, 130, 130);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.div1{
+    width: 24%;
+    height: 6svh;
+    border-radius: 40px;
+    background-color: rgb(136, 130, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    transition: all 2s;
+    transition-timing-function: linear;
+}
+.div1:hover{
+    background-color: red;
+    color: white;
+}
+.div2{
+    width: 24%;
+    height: 6svh;
+    border-radius: 40px;
+    background-color: rgb(136, 130, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    position: absolute;
+    top: 4px;
+    left: 288px;
+    transition: all 2s;
+    transition-timing-function: linear;
+}
+.div2:hover{
+    background-color: red;
+    color: white;
+}
+.div3{
+    width: 24%;
+    height: 6svh;
+    border-radius: 40px;
+    background-color: rgb(136, 130, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    position: absolute;
+    top: 4px;
+    left: 570px;
+    transition: all 2s;
+    transition-timing-function: linear;
+}
+.div3:hover{
+    background-color: red;
+    color: white;
+}
+.div4{
+    width: 24%;
+    height: 6svh;
+    border-radius: 40px;
+    background-color: rgb(136, 130, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    position: absolute;
+    top: 4px;
+    left: 852px;
+    transition: all 2s;
+    transition-timing-function: linear;
+}
+.div4:hover{
+    background-color: red;
+    color: white;
+}
+#cont1{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    top: 160px;
+    left: 60px;
+}
+#p1{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 220px;
+    left: 60px;
+}
+#p2{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 280px;
+    left: 60px;
+}
+#p3{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 350px;
+    left: 60px;
+}
+.division6{
+    width: 100%;
+    height: 100svh;
+    background-color: white;
+    position: relative;
+}
+.head1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+}
+#h1{
+    color: black;
+    left: 800px;
+}
+#h2{
+    color: red;
+    left: 940px;
+}
+#h3{
+    color: rgb(125, 120, 120);
+    font-size: 20px;
+    top: 200px;
+    left: 800px;
+}
+.btn1{
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman';
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+}
+.btn1:hover{
+    background-color: red;
+    color: white;
+}
+.btn2{
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman';
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+}
+.btn2:hover{
+    background-color: red;
+    color: white;
+}
+.btn3{
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman';
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 1200px;
+}
+.btn3:hover{
+    background-color: red;
+    color: white;
+}
+.btn4{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid red;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman';
+    color: black;
+    position: absolute;
+    top: 430px;
+    left: 800px;
+}
+.book{
+    width: 300px;
+    height: 300px;
+    border:transparent;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+#b1{
+    width: 520px;
+    height: 400px;
+    position: absolute;
+    top: -58px;
+    left: -110px;
+    background-image: url(./book1.png);
+    background-size: 100% 100%;
+    border: transparent;
+
+}
+#b1:hover{
+    cursor: pointer;
+    transform: scale(1.1);  
+}
+.add{
+    width: 100%;
+    height: 50svh;
+    background-image: url(./bg1.jpg);
+    position: relative;
+}
+#add1{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+#add2{
+    position: absolute;
+    top: 63px;
+    left: 619px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+#add3{
+    position: absolute;
+    top: 138px;
+    left: 619px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+#add4{
+    position: absolute;
+    top: 210px;
+    left: 619px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+#add5{
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+#add6{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left:50px ;
+    font-family: 'Times New Roman';
+}
+#add7{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 115px;
+    font-family: 'Times New Roman';
+}
+#add8{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 225px;
+    font-family: 'Times New Roman';
+}
+#add9{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 282px;
+    font-family: 'Times New Roman';
+
+}
+#add10{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 428px;
+    font-family: 'Times New Roman';
+}
+#add11{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 605px;
+    font-family: 'Times New Roman';
+}
+#add12{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 830px;
+    font-family: 'Times New Roman';
+}
+#add6:hover{
+    background-color: blue;
+    width: 50px;
+    height: 2px;
+}
+#add7:hover{
+    background-color: blue;
+    width: 70px;
+    height: 2px;
+}
+#add8:hover{
+    background-color: blue;
+    width: 40px;
+    height: 2px;
+}
+#add9:hover{
+    background-color: blue;
+    width: 70px;
+    height: 2px;
+}
+#add10:hover{
+    background-color: blue;
+    width: 150px;
+    height: 2px;
+}
+#add11:hover{
+    background-color: blue;
+    width: 70px;
+    height: 2px;
+}

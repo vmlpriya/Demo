@@ -1,0 +1,44 @@
+body {
+	margin: 30px;
+	position: relative;
+}
+table {
+	border-collapse: collapse;
+	background: linear-gradient(to left top,rgb(103, 78, 78),rgb(204, 128, 128));
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+td, th {
+	border: 3px solid black;
+	width: 100px;
+	height: 100px;
+	text-align: center; 
+}
+.icon {
+	width: 50px;
+	height: 50px;
+	color: white;
+	font-size: 50px;
+	line-height: 50px; 
+}
+#a{
+	position: absolute;
+	top: 2px;
+	left: 138px;
+}
+#b{
+	position: absolute;
+	top: 2px;
+	left: 195px;
+}
+#c{
+	position: absolute;
+	top: 2px;
+	left: 258px;
+}
+#d{
+	position: absolute;
+	top: 2px;
+	left: 315px;
+}

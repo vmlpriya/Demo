@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./registerform.css">
+    <script src="./registerform.js"></script>
+</head>
+<body>
+    <div class="form">
+    <form action="Registrationform">
+    <label for="Enter First Name">Enter First Name:</label>&emsp;&emsp;&emsp;
+    <input type="text" placeholder="Enter First Name" onchange="fn(event)"><br><br>
+    <label for="Enter last Name">Enter last Name:&emsp;&emsp;&emsp;&emsp14;</label>
+    <input type="text" placeholder="Enter last Name" onchange="ln(event)"><br><br>
+    <label for="Enter Father Name">Enter Father Name:&emsp;&emsp;&emsp14;</label>
+    <input type="text" placeholder="Enter Father Name" onchange="fan(event)"><br><br>
+    <label for="Enter Mother Name">Enter Mother Name:&emsp;&emsp;</label>
+    <input type="text" placeholder="Enter Mother Name" onchange="mn(event)"><br><br>
+    <label for="Enter Email">Enter Email:&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+    <input type="text" placeholder="Enter Email" onchange="eml(event)"><br><br>
+    <label for="Enter Mobile Number">Enter Mobile Number:&emsp;&emsp14;</label>
+    <input type="text" placeholder="Enter Mobile Number" onchange="mnum(event)"><br><br>
+    <label for="Enter Address">Enter Address:</label>&emsp;&emsp;&emsp;&emsp;
+    <input type="text" placeholder="Enter Address" onchange="add(event)"><br><br>
+    <label for="Date Of Birth">Date Of Birth:</label>&emsp;&emsp;&emsp;&emsp;
+    <input type="date" placeholder="Date Of Birth" onchange="dob(event)"><br><br>
+    <label for="Gender">Gender:</label>&emsp;&emsp;
+    <input type="radio" id="a" name="Gender" value="Male"onchange="male(event)"/><span>Male</span>
+    <input type="radio" id="b" name="Gender" value="Female"onchange="Female(event)"/><span>Female</span>
+    <input type="radio" id="c" name="Gender" value="Others"onchange="Others(event)"/><span>Others</span><br><br>
+    <label for="Certification">Certification:</label>&emsp;&emsp;&emsp;&emsp;
+    <input type="text" onchange="cf(event)"><br><br>
+    <label for="Qualifications">Qualifications:<br></label>
+    <table id="table" border="5px">
+        <tr>
+            <th>N.I</th>
+            <th>Y.O.P</th>
+            <th>PERCENTAGE</th>
+            <th>PLACE</th>
+        </tr>
+        <tr>
+            <td>SSC</td>
+            <td><input type="text" placeholder="10th yop" value="2020" onchange="po(event)"></td>
+            <td><input type="text" placeholder="10th %" value="100" onchange="pr(event)"></td>
+            <td><input type="text" placeholder="place" value="rcpm" onchange="pl(event)"></td>
+        </tr>
+        <tr>
+            <td>INTER</td>
+            <td><input type="text" placeholder="INTER yop" value="2024" onchange="po1(event)"></td>
+            <td><input type="text" placeholder="INTER %" value="100" onchange="pr1(event)"></td>
+            <td><input type="text" placeholder="place" value="kakinada" onchange="pl1(event)"></td>
+        </tr>
+        <tr>
+            <td>B.Tech</td>
+            <td><input type="text" placeholder="B.Tech yop" value="2026" onchange="po2(event)"></td>
+            <td><input type="text" placeholder="B.Tech %" value="100"  onchange="pr2(event)"></td>
+            <td><input type="text" placeholder="place" value="surampalem" onchange="pl2(event)"></td>
+        </tr>
+    </table><br><br>
+    <label for="Skills">Skills:</label>&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="text" onchange="sk(event)"><br><br>
+    <label for="Hobbies">Hobbies:</label>&emsp;&emsp;&emsp;&emsp;
+    <input type="text" onchange="hb(event)"><br><br>
+    <label for="college">college:</label>&emsp;&emsp;&emsp;&emsp;
+    <select onchange="college(event)">
+        <option selected="" value="Default">select college</option>
+        <option value="AEC">AEC</option>
+        <option value="ACET">ACET</option>
+        <option value="ACOE">ACOE</option>
+    </select><br><br>
+    <button onclick="Senddetails(event)">Submit</button>
+</form>
+</div>
+</body>
+</html>

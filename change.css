@@ -1,0 +1,43 @@
+body{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.parent{
+    height: 150px;
+    width: 500px;
+    border-radius: 125px;
+    background-color: white;
+    box-shadow: 0 0 15px inset black;
+    background: url(mrng.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    transition: all 2s;
+    transition-timing-function: linear;
+}
+.parent:hover{
+    background: url(night.jpg);
+    background-size: 100% 100%;
+}
+.parent::before{
+    content: "";
+    height: 140px;
+    width: 140px;
+    background-color: orange;
+    box-shadow: 0 0 15px inset black;
+    border-radius: 50%;
+    transition: all 2s;
+    transition-timing-function: linear;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.parent:hover::before{
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    left: 350px;
+}

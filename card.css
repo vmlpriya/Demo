@@ -1,0 +1,86 @@
+.parent{
+    width: 100%;
+    height: 100svh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child {
+    width: 506px;
+    height: 284px;
+    border-radius: 13px;
+    box-shadow: 0 0 30px rgb(19, 32, 94);
+    background-image: url(imagecopy2.png);
+}
+.c1 {
+    position: absolute;
+    top: 354px;
+    left: 550px;
+    border-radius: 13px;
+}
+.c2 {
+    position: absolute;
+    top: 267px;
+    left: 890px;
+}
+.i{
+    font-style: italic;
+    position: absolute;
+    top: 357px;
+    left: 847px;
+    color: white;
+}
+.i1 {
+    font-style: italic;
+    font-size: 10px;
+    position: absolute;
+    top: 378px;
+    left: 845px;
+    color: whitesmoke;
+}
+.i2 {
+    font-style: italic;
+    font-size: 25px;
+    position: absolute;
+    top: 405px;
+    left: 618px;
+    color: whitesmoke;
+}
+.i3 {
+    font-family: 'Times New Roman';
+    font-size: 22px;
+    position: absolute;
+    top: 495px;
+    left: 556px;
+    color: whitesmoke;
+}
+.i4 {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    position: absolute;
+    top: 452px;
+    left: 700px;
+    color: whitesmoke;
+}
+.i5 {
+    font-family: 'Times New Roman';
+    font-size: 31px;
+    position: absolute;
+    top: 452px;
+    left: 750px;
+    color: whitesmoke;
+}
+.i6 {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    position: absolute;
+    top: 470px;
+    left: 700px;
+    color: whitesmoke;
+}
+.visa {
+    position: absolute;
+    top: 420px;
+    left: 880px;
+}

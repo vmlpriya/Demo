@@ -1,0 +1,10 @@
+.testing{
+    width: 500px;
+    height: 500px;
+    color: transparent;
+    font-style: italic;
+    font-size: 100px;
+    background-image: url("R.jpg");
+    background-size: 100%;
+    background-clip: text;
+}
